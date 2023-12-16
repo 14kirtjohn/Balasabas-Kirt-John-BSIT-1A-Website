@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: #27354d;
+            background-image: url(./IMAGES/bacckg.jpg);
+        }
+
+        /* NAVIGATION BAR */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        /* END OF THE NAVIGATION BAR */
+
+
+        h1{
+            color: rgb(255, 255, 255);
+            text-align: left;
+            font-size: 180px;
+            margin: 1px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 2px;
+            letter-spacing: 5px;
+        }
+        h1:hover{
+            color: rgb(69, 255, 233);
+        }
+        .headd {
+            grid-area: header;
+            background: url(.//IMAGES/wall1.jpg)center center no-repeat;
+            background-size: cover;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            flex-direction: column;
+            padding: 1em;
+            height: 300px;
+        }
+
+        /* .wall{
+            height: 250px;
+            width: 100%;
+            position:static;
+        } */
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            margin: 1px;
+            color: white;
+        }
+
+        /* .wall{
+            position:absolute;
+            height: 120px;
+            display:flexbox;
+        } */
+        /* content */
+        .intro {
+            margin-top: 40px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            padding:top 10px;
+            padding:bottom 10px;
+            padding:left 10px;
+            padding:right 10px;
+            margin: left right 50px;
+            /* background-color: rgb(248, 248, 248); */
+            height: 100px;
+            border-radius: 3px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 15px;
+            margin-top: 30px;
+            line-height: 50px;
+            font-size: 30px;
+        }
+        .altin{
+            text-indent: 20px;
+        }
+        .welcome{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bolder;
+            text-indent: 20px;
+            margin-top: 50px;
+        }
+        .why{
+            margin-top: 200px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px; 
+            font-weight: bolder;
+            text-indent: 20px;
+        }
+        .foot{
+            text-indent: 20px;
+        }
+        span{
+            font-weight: bolder;
+            font-size: larger;
+            text-transform: small-caps;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="Navbar">
+        <ul>
+            <li><a class="home" href="Home.html">Home</a></li>
+            <li><a class="book" href="Book.html">Book</a></li>
+            <li><a class="book" href="Contact.html">Contact</a></li>
+            <li><a class="book" href="About.html">About</a></li>
+        </ul>
+    </div>
+    <div class="headd">
+        <h1>LavShots</h1>
+    </div>
+    <hr>
+    <!-- ROLLING TEXT -->
+    <marquee behavior="faster" direction="left">
+        <p>We value your expectations through creativity!</p>
+    </marquee>
+    <!-- CONTENT! -->
+    <div>
+        <div>
+            <p class="welcome">Welcome to LavShots!</p>
+            <p class="intro altin">At LavShots, we believe that every moment is a work of art waiting to be captured. Step into
+                a world where photography meets passion, and where each click tells a unique story. We are not just a
+                marketplace; we are curators of visual experiences, bringing you the finest photography essentials to
+                elevate your craft.</p>
+        </div>
+        <div>
+            <p class="why">Why LavShots?</p>
+            <p class="intro"> <span>Curated Elegance:</span> Our team scours the globe to handpick the finest products that embody
+                sophistication and timeless appeal.</p>
+            <p class="intro"> <span>Innovative Convenience:</span> LavShots brings you products designed to simplify and enhance your
+                daily life. We believe in combining style with practicality.</p>
+            <p class="intro"> <span>Global Inspiration:</span> Immerse yourself in a world of global trends and cultural influences.
+                LavShot brings you the best from around the world, right to your doorstep.</p>
+            <p class="intro"> <span>Effortless Shopping:</span> Navigate our user-friendly website with ease, and experience
+                hassle-free shopping from the comfort of your home.</p>
+            <p class="intro"><span>Express Your Style:</span> LavShots isn't just a store; it's a lifestyle. Embrace your
+                individuality and express your unique style through our carefully curated selections.</p>
+            <p class="intro">Join us on this journey of elegance and convenience. LavShot - Elevate Your Everyday!</p>
+        </div>
+    </div>
+</body>
+
+</html>

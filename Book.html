@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <style>
+        body {
+            background-color: #27354d;
+            background-image: url(.//IMAGES/bacckg.jpg);
+        }
+
+        /* NAVIGATION BAR */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        /* END OF THE NAVIGATION BAR */
+
+
+        .container {
+            position: relative;
+            width: 1100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .container .card {
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background: #fff;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: ease-in-out;
+        }
+
+        .container .card:hover {
+            height: 420px;
+        }
+
+        .container .card .imgBx {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 20px;
+            z-index: 1;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .container .card .imgBx img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .container .card .content {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3 ease-in-out;
+        }
+
+        .container .card:hover .content {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: 0.3s;
+        }
+
+        .imgBx {
+            display: flex;
+        }
+
+        .booki {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20px;
+            width: 60px;
+        }
+
+        /* abvvjbxjvb */
+        body,
+        h1,
+        p {
+            margin: 0;
+            padding: 0; 
+            margin-bottom: 50px ;
+            text-align: justify;
+        }
+        .book-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .book-button:hover {
+            background-color: #00ff51;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Navbar">
+        <ul>
+            <li><a class="home" href="Home.html">Home</a></li>
+            <li><a class="book" href="Book.html">Book</a></li>
+            <li><a class="book" href="Contact.html">Contact</a></li>
+            <li><a class="book" href="About.html">About</a></li>
+        </ul>
+    </div>
+    <hr>
+    <!-- content -->
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src=".//IMAGES/prebirth.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Pre-Birthday</h2>
+                <p>The Package includes: <br> 50 Solo Portraits, 50 Solo Creative Shots, 20 Shot with family or friends, and
+                    20 Printed Pictures.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src=".//IMAGES/birthday.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Birthday</h2>
+                <p>Birthday Package: <br>
+                    Coverage of the entire birthday celebration
+                    Candid shots capturing precious moments
+                    Individual and group portraits
+                    High-resolution digital images
+                    Online gallery for easy sharing
+                    Optional add-ons: Customized photo albums, prints, or themed photo sessions</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src=".//IMAGES/events.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Events</h2>
+                <p>Events Package: <br>
+
+                    Comprehensive coverage of the event
+                    Candid and posed shots of key moments
+                    Crowd and atmosphere shots
+                    Professional editing of images
+                    High-resolution digital images
+                    Online gallery for easy sharing and downloading
+                    Option for a second photographer for larger events</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src=".//IMAGES/wedding2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Wedding</h2>
+                <p>Wedding Package: <br>
+                    Full-day coverage, including pre-ceremony preparations
+                    Candid and formal shots of the ceremony
+                    Couple and group portraits
+                    Reception coverage, including speeches and dances
+                    Professional editing and retouching
+                    High-resolution digital images
+                    Engagement photoshoot session
+                    Customized photo album or photo book option</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src=".//IMAGES/funshoot.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Funshoot</h2>
+                <p>Funshoot Package: <br>
+                    Creative and personalized photoshoot session
+                    Choice of location (indoor or outdoor)
+                    Wardrobe consultation and styling advice
+                    Professional editing and retouching
+                    High-resolution digital images
+                    Online gallery for image selection
+                    Option for multiple outfits or themes</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src=".//IMAGES/grad2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Graduation Picture</h2>
+                <p>Graduation Picture Package: <br>
+                    Graduation ceremony coverage
+                    Cap and gown portraits
+                    Formal and candid shots with family and friends
+                    Professional editing and retouching
+                    High-resolution digital images
+                    Online gallery for easy sharing
+                    Option for prints and framing</p>
+            </div>
+        </div>
+    </div>
+    <div class="button">
+        <a href="bbbb.html" class="book-button">Book Now</a>
+    </div>
+
+</body>
+
+</html>
